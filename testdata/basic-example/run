@@ -5,7 +5,7 @@ go install -v ../../cmd/k6-to-honeycomb
 go install 
 (basic-example) &
 
-k6 run -u 1 -d 15s --out json=./output.json --tag example_tag_1=foobar --tag=example_tag_2=banana basic-example.js
+k6 run -u 2 -d 20s --out json=./output.json --tag example_tag_1=foobar --tag=example_tag_2=banana basic-example.js
 
 kill %1
 wait

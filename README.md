@@ -40,3 +40,7 @@ By default this will send to a `k6-load-tests` dataset but this is configurable 
 ```shell
 $ k6-to-honeycomb -d k6-load-test-results output.json
 ```
+
+## Example Results
+
+![Example Results](./docs/screenshots/example-results-1.png)
